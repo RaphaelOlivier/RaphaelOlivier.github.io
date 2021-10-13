@@ -1,1 +1,1 @@
-rm -fr docs && HUGO_ENV=production $(HUGO) && mv public docs && touch docs/.nojekyll
+rm -fr docs && HUGO_ENV=production hugo && mv public docs && touch docs/.nojekyll
