@@ -1,3 +1,5 @@
+#Copied and changed from https://stackoverflow.com/questions/54739382/hugo-fails-to-build-with-github-pages-because-of-yaml-error
+
 
 HUGO := hugo
 APT := apt
