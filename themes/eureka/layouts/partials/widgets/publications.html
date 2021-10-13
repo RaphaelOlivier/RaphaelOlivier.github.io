@@ -1,0 +1,31 @@
+{{ range .Params.publications }}
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      {{ if .url }}
+      <div class="font-bold text-xl"><a href="{{ .url }}">{{ .title }}</a></div>
+      {{ else }}
+      <div class="font-bold text-xl">{{ .title }}</div>
+      {{ end }}
+      <div class="font-semibold">
+        <span>{{ .authors | markdownify }}</span><br>
+      </div>
+      <div>
+        <span><i>{{ .booktitle | markdownify }}</i>, {{ .location | markdownify }}, {{ .date | markdownify }} </span>
+      </div>
+    </div>
+    <div>
+      <details>
+        <summary>Abstract</summary>
+        <p>{{ .abstract | markdownify }}</p>
+      </details>
+    </div>
+    <div>
+      <details>
+        <summary>Bibtex</summary>
+        <p>{{ .bibtex | markdownify }}</p>
+      </details>
+    </div>
+  </div>
+</div>
+{{ end }}

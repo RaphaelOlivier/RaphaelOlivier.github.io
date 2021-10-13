@@ -1,0 +1,16 @@
+main:
+  - name: About
+    url: '#about'
+    weight: 1
+  - name: Publications
+    url: '#publications'
+    weight: 2
+  - name: Education
+    url: '#education'
+    weight: 3
+  - name: Work experience
+    url: '#work'
+    weight: 4
+  - name: Teaching
+    url: '#teaching'
+    weight: 5
