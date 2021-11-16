@@ -5,6 +5,7 @@ publications:
       
   - title: Sequential Randomized Smoothing for Adversarially Robust Speech Recognition
     authors: Raphael Olivier, Bhiksha Raj
+    url: https://aclanthology.org/2021.emnlp-main.514/
     booktitle: Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)
     location: Punta Cana
     date: November 2021

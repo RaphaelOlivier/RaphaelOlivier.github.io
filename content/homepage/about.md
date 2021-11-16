@@ -2,7 +2,7 @@
 title: Raphael Olivier
 draft: false
 role: PhD student
-avatar: tinyreader.jpg
+avatar: headshot_face.jpg
 bio: >
   3rd year PhD student working on adversarial robustness and speech.
   Email : <a href="mailto:raphael.franck.olivier@gmail.com">raphael.franck.olivier@gmail.com</a> or <a href="mailto:rolivier@cs.cmu.edu">rolivier@cs.cmu.edu</a>
