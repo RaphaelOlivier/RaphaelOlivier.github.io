@@ -31,7 +31,7 @@ social:
     linkTitle: Linkedin
   - icon: file
     iconPack: fas
-    url: CVRaphaelOlivier.pdf
+    url: RaphaelOlivierCV.pdf
     linkTitle: Resume
 
 weight: 1
