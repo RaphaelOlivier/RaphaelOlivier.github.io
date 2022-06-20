@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html style="scroll-behavior: smooth;" lang='en' ><meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+<title>Raphael Olivier</title>
+
+<meta name="generator" content="Hugo Eureka 0.8.3-dev" />
+<link rel="stylesheet" href="/css/eureka.min.css">
+<script defer src="/js/eureka.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+  as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css"
+   media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"
+   crossorigin></script>
+
+  <script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/languages/dart.min.js"
+     crossorigin></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js"
+   integrity="sha256-uNYoXefWRqv&#43;PsIF/OflNmwtKM4lStn9yrz2gVl6ymo="  crossorigin></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+   integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3&#43;Aro6EYUG4&#43;cU&#43;KJWu/X"  media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" 
+  integrity="sha384-g7c&#43;Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI&#43;sEnkvrMWph2EDg4"  crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+   integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC&#43;Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"  crossorigin></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+    });
+  });
+</script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/mermaid@8.9.2/dist/mermaid.min.js" 
+  integrity="sha256-Zmpaaj&#43;GXFsPF5WdPArSrnW3b30dovldeKsW00xBVwE="  crossorigin></script>
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="/images/cheese_hub12e8e3888b900bbda1e6be4e76ab804_7183_32x32_fill_box_center_3.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/cheese_hub12e8e3888b900bbda1e6be4e76ab804_7183_180x180_fill_box_center_3.png">
+
+<meta name="description"
+  content="My website, powered by Hugo and Eureka">
+
+
+
+<meta property="og:title" content="Raphael Olivier" />
+<meta property="og:type" content="website" />
+
+
+<meta property="og:image" content="/images/cheese.png">
+
+
+<meta property="og:url" content="/" />
+
+
+
+
+
+<meta property="og:description" content="My website, powered by Hugo and Eureka" />
+
+
+
+
+
+<meta property="og:locale" content="en" />
+
+
+
+
+<meta property="og:site_name" content="Raphael Olivier" />
+
+
+
+
+
+
+
+
+<meta property="article:section" content="" />
+
+
+<link rel="alternate" type="application/rss+xml" href="/index.xml" title="Raphael Olivier" />
+
+<body class="flex flex-col min-h-screen">
+  <header class="fixed flex items-center w-full min-h-16 pl-scrollbar z-50 bg-secondary-bg shadow-sm">
+    <div class="w-full max-w-screen-xl mx-auto"><script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    }
+</script>
+<nav class="flex items-center justify-between flex-wrap px-4 py-4 md:py-0">
+    <a href="/" class="mr-6 text-primary-text text-xl font-bold">Raphael Olivier</a>
+    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="target"
+        class="hidden block md:flex md:flex-grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="md:flex md:h-16 text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0">
+            <a href="/#about" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  mr-4">About</a>
+            <a href="/#news" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  mr-4">News</a>
+            <a href="/#publications" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  mr-4">Publications</a>
+            <a href="/#education" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  mr-4">Education</a>
+            <a href="/#work" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  mr-4">Work experience</a>
+            <a href="/#teaching" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  mr-4">Talks</a>
+        </div>
+
+        <div class="flex">
+            <div class="relative pt-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
+                    <i class="fas fa-adjust"></i>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+                </div>
+                <div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <span class="px-4 py-1 hover:text-eureka" name="Light">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Dark">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Auto">Auto</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    
+    let element = document.getElementById('lightDarkMode')
+    if (storageColorScheme == null || storageColorScheme == 'Auto') {
+        document.addEventListener('DOMContentLoaded', () => {
+            window.matchMedia("(prefers-color-scheme: dark)").addEventListener('change', switchDarkMode)
+        })
+    } else if (storageColorScheme == "Light") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'sun')
+        element.firstElementChild.classList.add('fa-sun')
+    } else if (storageColorScheme == "Dark") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'moon')
+        element.firstElementChild.classList.add('fa-moon')
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme();
+        switchBurger();
+    });
+</script>
+</div>
+  </header>
+  <main class="flex-grow pt-16">
+  
+  
+  
+    
+      
+  
+
+  
+
+  
+  
+  
+
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+  
+
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+    
+    
+  
+
+  <div class="pl-scrollbar bg-secondary-bg" 
+    >
+    <div class="max-w-screen-xl mx-auto">
+      <div id="about" class="lg:w-3/4 mx-auto px-6 md:px-8 xl:px-12 py-12">
+        
+  
+
+  
+    <div class="flex flex-col md:flex-row items-center justify-center mb-12">
+  
+  
+    <div class="flex-none w-48 mx-auto md:ml-0 md:mr-8 md:pr-8 md:border-r">
+      <img src="/headshot_face.jpg" class="rounded-full" alt="Avatar">
+    </div>
+  
+  <div class="flex-grow mt-4 md:mt-0">
+    <div class="text-3xl py-4">Raphael Olivier</div>
+    <div class="w-3/12 xl:w-2/12 border-b"></div>
+
+    <div class="flex items-center pt-4">
+      
+        <i class="fas fa-user"></i>
+      
+      <div class="flex flex-wrap">
+        
+          <span class="pl-4">PhD student</span>
+        
+
+        
+          <a href="https://www.lti.cs.cmu.edu/" class="pl-4">LTI, Carnegie Mellon University</a>
+        
+      </div>
+
+    </div>
+
+    
+      <div class="py-8 text-lg leading-normal">
+        3rd year PhD student working on adversarial robustness and speech.  Email : <a href="mailto:raphael.franck.olivier@gmail.com"><a href="mailto:raphael.franck.olivier@gmail.com">raphael.franck.olivier@gmail.com</a></a> or <a href="mailto:rolivier@cs.cmu.edu"><a href="mailto:rolivier@cs.cmu.edu">rolivier@cs.cmu.edu</a></a>
+      </div>
+    
+  </div>
+  <div class="flex md:flex-col justify-center items-end ml-8">
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      <div class="pb-2 pr-4 md:pr-0 pt-4 md:pt-0">
+        <a href="mailto:raphael.franck.olivier@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    
+      
+      
+      
+      
+      
+      
+      
+      <div class="pb-2 pr-4 md:pr-0 pt-4 md:pt-0">
+        <a href="https://github.com/RaphaelOlivier/" title="GitHub"><i class="fab fa-github"></i></a>
+      </div>
+    
+      
+      
+      
+      
+      
+      
+      
+      <div class="pb-2 pr-4 md:pr-0 pt-4 md:pt-0">
+        <a href="https://scholar.google.com/citations?user=ovPE0RQAAAAJ" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+      </div>
+    
+      
+      
+      
+      
+      
+      
+      
+      <div class="pb-2 pr-4 md:pr-0 pt-4 md:pt-0">
+        <a href="https://www.linkedin.com/in/rapha%C3%ABl-olivier-a01342106" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+      </div>
+    
+      
+      
+      
+      
+      
+      
+      
+      <div class="pb-2 pr-4 md:pr-0 pt-4 md:pt-0">
+        <a href="RaphaelOlivierCV.pdf" title="Resume"><i class="fas fa-file"></i></a>
+      </div>
+    
+  </div>
+</div>
+<div class="content">
+  <p>I am on the job market next year (Spring 2022)! Reach out at either of the addresses above.</p>
+<h2 id="about">About</h2>
+<p>I am a third year Ph.D student in the Language Technologies Institute at Carnegie Mellon University, Pittsburgh PA. I am working under the supervision of Prof. Bhiksha Raj.</p>
+<p>I was a graduate of École Polytechnique in Paris, where I double majored in math and CS. I joined the Master in Language Technologies at CMU in 2017.</p>
+<h2 id="research-interests">Research interests</h2>
+<h3 id="ai-security">AI security</h3>
+<p>The Deep Learning models that have revolutionized the fields of Computer Vision, Speech and Language Processing, can behave strangely out of their training domain. Agents with malicious intents can actively create these contexts in order to exploit deployed Artificial Intelligence (AI) systems : force self-driving cars to confuse signs and crash, military drones to mistake hospitals for military bases, personal assistants or smartphones to reveal private user information, etc.</p>
+<p>In my thesis I work on formalizing, evaluating and mitigating these threats, such as adversarial perturbations, data poisoning, privacy attacks, etc. My long-term research goal is to contribute to the safe development of Artificial Intelligence, so that society can benefit and not suffer from it.</p>
+<p>I also believe that security is a fascinating and central aspect of AI from a theoretical perspective. People who create these models want to replicate aspects of human intelligence, and security threats arise precisely when models behave differently from humans (in a way that attackers can control). I would argue that making models safer is equivalent to making them better.</p>
+<h3 id="speech-recognition">Speech Recognition</h3>
+<p>Some aspects of AI security are common to all models, but other are specific to certain applications and architectures. When investigating the latter I focus on Speech processing applications, and in particular Automatic Speech Recognition. I am a member of the Machine Learning and Signal Processing research group at CMU. I have also conducted two internships in the Alexa Hybrid Science team in Pittsburgh, where I investigated attacks against and defenses for Amazon Alexa’s speech-to-text models.</p>
+<h2 id="other-interests">Other interests</h2>
+<p>In my free time I read classic novels, watch films, brew coffee, play tennis and bridge (I’m looking for bridge partners in the Pittsburgh area).</p>
+<p>I like photography too. Go check <a href="http://www.raphaelolivier.com">http://www.raphaelolivier.com</a>. Sadly it belongs to a very talented homonym but I get to lure people I meet into thinking it&rsquo;s mine.</p>
+
+</div>
+
+  
+
+      </div>
+    </div>
+  </div>
+
+    
+
+  
+  
+    
+      
+  
+
+  
+
+  
+  
+  
+
+  
+    
+    
+    
+    
+      
+      
+    
+  
+
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+
+    
+    
+    
+    
+    
+  
+
+  <div class="pl-scrollbar bg-primary-bg" 
+    >
+    <div class="max-w-screen-xl mx-auto">
+      <div id="news" class="lg:w-4/5 mx-auto px-6 md:px-8 xl:px-12 py-12">
+        
+  
+
+  
+
+    
+    
+    
+    
+    
+      
+    
+    <div class="flex flex-col lg:flex-row">
+      <div class="flex-none lg:w-1/4 lg:mr-4">
+        <h2 class="font-bold text-3xl my-4">News</h2>
+      </div>
+      <div class="flex-grow lg:ml-4">
+        <ul>
+<li><strong>[June 2022]</strong>: <strong><a href="https://arxiv.org/abs/2203.16536">Our paper</a></strong> was accepted at Interspeech 2022</li>
+<li><strong>[June 2022]</strong>: We released robust speech version 0.2.0</li>
+<li><strong>[April 2022]</strong>: We released <strong><a href="https://github.com/RaphaelOlivier/robust_speech">robust speech</a></strong>, a package to evaluate Speech Recognition models against adversarial attacks.</li>
+<li><strong>[January 2022]</strong>: I successfully proposed my thesis subject to a committee composed of profs. <strong><a href="https://www.papernot.fr/">Nicolas Papernot</a></strong>, <strong><a href="https://users.ece.cmu.edu/~lbauer/">Lujo Bauer</a></strong>, Rita Singh and Bhiksha Raj</li>
+<li><strong>[November 2021]</strong>: I presented <strong><a href="https://aclanthology.org/2021.emnlp-main.514">our paper</a></strong> at EMNLP 2021</li>
+<li><strong>[June 2021]</strong>: I presented <strong><a href="https://ieeexplore.ieee.org/document/9414696">our</a></strong> <strong><a href="https://ieeexplore.ieee.org/document/9414525">papers</a></strong> at ICASSP 2021</li>
+<li><strong>[January 2021]</strong>: I presented <strong><a href="https://arxiv.org/abs/2005.14070">our</a></strong> <strong><a href="https://ieeexplore.ieee.org/document/9412932">papers</a></strong> at ICPR 2020</li>
+</ul>
+
+      </div>
+    </div>
+  
+
+      </div>
+    </div>
+  </div>
+
+    
+
+  
+  
+    
+      
+  
+
+  
+
+  
+  
+  
+
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+  
+
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+
+    
+    
+    
+    
+    
+  
+
+  <div class="pl-scrollbar bg-secondary-bg" 
+    >
+    <div class="max-w-screen-xl mx-auto">
+      <div id="publications" class="lg:w-4/5 mx-auto px-6 md:px-8 xl:px-12 py-12">
+        
+  
+
+  
+
+    
+    
+    
+    
+    
+      
+    
+    <div class="flex flex-col lg:flex-row">
+      <div class="flex-none lg:w-1/4 lg:mr-4">
+        <h2 class="font-bold text-3xl my-4">Publications</h2>
+      </div>
+      <div class="flex-grow lg:ml-4">
+        
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      
+      <div class="font-bold text-xl"><a href="https://arxiv.org/abs/2203.16536">Recent improvements of ASR models in the face of adversarial attacks</a></div>
+      
+      <div class="font-semibold">
+        <span>Raphael Olivier, Bhiksha Raj</span><br>
+      </div>
+      <div>
+        <span><i>InterSpeech 2022</i>, Incheon, September 2022 </span>
+      </div>
+    </div>
+    <div>
+      <details>
+        <summary>Abstract</summary>
+        <p>Like many other tasks involving neural networks, Speech Recognition models are vulnerable to adversarial attacks. However recent research has pointed out differences between attacks and defenses on ASR models compared to image models. Improving the robustness of ASR models requires a paradigm shift from evaluating attacks on one or a few models to a systemic approach in evaluation. We lay the ground for such research by evaluating on various architectures a representative set of adversarial attacks: targeted and untargeted, optimization and speech processing-based, white-box, black-box and targeted attacks. Our results show that the relative strengths of different attack algorithms vary considerably when changing the model architecture, and that the results of some attacks are not to be blindly trusted. They also indicate that training choices such as self-supervised pretraining can significantly impact robustness by enabling transferable perturbations. We release our source code as a package that should help future research in evaluating their attacks and defenses.</p>
+      </details>
+    </div>
+    <div>
+      <details>
+        <summary>Bibtex</summary>
+        <p>@inproceedings{Olivier22RI, title = &ldquo;Recent improvements of ASR models in the face of adversarial attacks&rdquo;, author = &ldquo;Olivier Raphael  and Raj, Bhiksha&rdquo;, booktitle = &ldquo;InterSpeech 2022&rdquo;, month = sep, year = &ldquo;2022&rdquo;, address = &ldquo;Incheon, South Korea&rdquo;, publisher = &ldquo;ISCA&rdquo;}</p>
+      </details>
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      
+      <div class="font-bold text-xl"><a href="https://aclanthology.org/2021.emnlp-main.514/">Sequential Randomized Smoothing for Adversarially Robust Speech Recognition</a></div>
+      
+      <div class="font-semibold">
+        <span>Raphael Olivier, Bhiksha Raj</span><br>
+      </div>
+      <div>
+        <span><i>Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)</i>, Punta Cana, November 2021 </span>
+      </div>
+    </div>
+    <div>
+      <details>
+        <summary>Abstract</summary>
+        <p>While Automatic Speech Recognition has been shown to be vulnerable to adversarial attacks, defenses against these attacks are still lagging. Existing, naive defenses can be partially broken with an adaptive attack. In classification tasks, the Randomized Smoothing paradigm has been shown to be effective at defending models. However, it is difficult to apply this paradigm to ASR tasks, due to their complexity and the sequential nature of their outputs. Our paper overcomes some of these challenges by leveraging speech-specific tools like enhancement and ROVER voting to design an ASR model that is robust to perturbations. We apply adaptive versions of state-of-the-art attacks, such as the Imperceptible ASR attack, to our model, and show that our strongest defense is robust to all attacks that use inaudible noise, and can only be broken with very high distortion.</p>
+      </details>
+    </div>
+    <div>
+      <details>
+        <summary>Bibtex</summary>
+        <p>@inproceedings{Olivier21SR, title = &ldquo;Sequential Randomized Smoothing for Adversarially Robust Speech Recognition&rdquo;, author = &ldquo;Olivier Raphael  and Raj, Bhiksha&rdquo;, booktitle = &ldquo;Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing&rdquo;, month = nov, year = &ldquo;2021&rdquo;, address = &ldquo;Punta Cana, Dominican Republic&rdquo;, publisher = &ldquo;Association for Computational Linguistics&rdquo;}</p>
+      </details>
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      
+      <div class="font-bold text-xl"><a href="https://ieeexplore.ieee.org/document/9414525">High-Frequency Adversarial Defense for Speech and Audio</a></div>
+      
+      <div class="font-semibold">
+        <span>Raphael Olivier, Muhammad Shah, Bhiksha Raj</span><br>
+      </div>
+      <div>
+        <span><i>2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</i>, Toronto, June 2021 </span>
+      </div>
+    </div>
+    <div>
+      <details>
+        <summary>Abstract</summary>
+        <p>Recent work suggests that adversarial examples are enabled by high-frequency components in the dataset. In the speech domain where spectrograms are used extensively, masking those components seems like a sound direction for defenses against attacks. We explore a smoothing approach based on additive noise masking in priority high frequencies. We show that this approach is much more robust than the naive noise filtering approach, and a promising research direction. We successfully apply our defense on a Librispeech speaker identification task, and on the UrbanSound8K audio classification dataset.</p>
+      </details>
+    </div>
+    <div>
+      <details>
+        <summary>Bibtex</summary>
+        <p>@inproceedings{Olivier21HF, author={Olivier, R. and Raj, B. and Shah, M.}, booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},  title={High-Frequency Adversarial Defense for Speech and Audio},  year={2021}, volume={}, number={}, pages={2995-2999}, doi={10.1109/ICASSP39728.2021.9414525}}</p>
+      </details>
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      
+      <div class="font-bold text-xl"><a href="https://ieeexplore.ieee.org/document/9414696">Towards Adversarial Robustness Via Compact Feature Representations</a></div>
+      
+      <div class="font-semibold">
+        <span>Muhammad Shah, Raphael Olivier, Bhiksha Raj</span><br>
+      </div>
+      <div>
+        <span><i>2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</i>, Toronto, June 2021 </span>
+      </div>
+    </div>
+    <div>
+      <details>
+        <summary>Abstract</summary>
+        <p>Deep Neural Networks (DNNs), while providing state-of-the-art performance in a wide variety of tasks, have been shown to be vulnerable to adversarial attacks. Recent studies have posited that this vulnerability arises because DNNs operate over a grossly overspecified input space with very sparse human supervision due to which they tend to learn spurious features that humans would ignore. These spurious features provide an attack vector for the adversary because perturbing these features would not alter the human’s decision but may alter the model’s prediction. In this paper we explore hypothesis that reducing the size of the model’s feature representation while maintaining its generalizability would discard spurious features while retaining perceptually relevant ones. We find that after the size of the feature representation has been reduced the models exhibit increased adversarial robustness, while suffering only a minimal loss in accuracy. In addition to being more robust, models with compact feature representations have the benefit of being more resource efficient.</p>
+      </details>
+    </div>
+    <div>
+      <details>
+        <summary>Bibtex</summary>
+        <p>@inproceedings{Shah21TA, author={Shah, Muhammad A. and Olivier, Raphael and Raj, Bhiksha}, booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},  title={Towards Adversarial Robustness Via Compact Feature Representations},  year={2021}, volume={}, number={}, pages={3845-3849}, doi={10.1109/ICASSP39728.2021.9414696}}</p>
+      </details>
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      
+      <div class="font-bold text-xl"><a href="https://arxiv.org/abs/2005.14070">Exploiting Non-Linear Redundancy for Neural Model Compression</a></div>
+      
+      <div class="font-semibold">
+        <span>Muhammad Shah, Raphael Olivier, Bhiksha Raj</span><br>
+      </div>
+      <div>
+        <span><i>2020 25th International Conference on Pattern Recognition (ICPR)</i>, Milan, January 2021 </span>
+      </div>
+    </div>
+    <div>
+      <details>
+        <summary>Abstract</summary>
+        <p>Deploying deep learning models, comprising of non-linear combination of millions, even billions, of parameters is challenging given the memory, power and compute constraints of the real world. This situation has led to research into model compression techniques most of which rely on suboptimal heuristics and do not consider the parameter redundancies due to linear dependence between neuron activations in overparametrized networks. In this paper, we propose a novel model compression approach based on exploitation of linear dependence, that compresses networks by elimination of entire neurons and redistribution of their activations over other neurons in a manner that is provably lossless while training. We combine this approach with an annealing algorithm that may be applied during training, or even on a trained model, and demonstrate, using popular datasets, that our method results in a reduction of up to 99% in overall network size with small loss in performance. Furthermore, we provide theoretical results showing that in overparametrized, locally linear (ReLU) neural networks where redundant features exist, and with correct hyperparameter selection, our method is indeed able to capture and suppress those dependencies.</p>
+      </details>
+    </div>
+    <div>
+      <details>
+        <summary>Bibtex</summary>
+        <p>@inproceedings{Shah21EN, author={Shah, Muhammad A. and Olivier, Raphael and Raj, Bhiksha}, booktitle={25th International Conference on Pattern Recognition (ICPR)},  title={Exploiting Non-Linear Redundancy for Neural Model Compression},  year={2021}, volume={}, number={}, pages={9928-9935}, doi={10.1109/ICPR48806.2021.9413178}}</p>
+      </details>
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      
+      <div class="font-bold text-xl"><a href="https://ieeexplore.ieee.org/document/9412932">Optimal Strategies For Comparing Covariates To Solve Matching Problems</a></div>
+      
+      <div class="font-semibold">
+        <span>Muhammad Shah, Raphael Olivier, Bhiksha Raj</span><br>
+      </div>
+      <div>
+        <span><i>2020 25th International Conference on Pattern Recognition (ICPR)</i>, Milan, January 2021 </span>
+      </div>
+    </div>
+    <div>
+      <details>
+        <summary>Abstract</summary>
+        <p>Many machine learning tasks can be posed as matching problems in which we are given a “probe” entry that we expect matches some of the entries in our “gallery”. The general solution to these problems is to retrieve matching entries based on statistical dependencies between the probe and the gallery data that are learned using complex models. Often, however, there are other common covariates to the probe and gallery data which might be easily inferred and may explain some of the statistical dependencies between the two. In this paper we present a probabilistic framework to derive optimal matching strategies based only on covariate features for three broad tasks, namely N-way classification, pairwise verification and ranking. We use canonical metrics to determine the maximum performance that can be expected if only covariate features are used and determine the marginal gain of using complex models. We find that covariate matching achieves an EER within 10% of a CNN in the verification task, and an MAP within 22% of the a DNN based model in the ranking task.</p>
+      </details>
+    </div>
+    <div>
+      <details>
+        <summary>Bibtex</summary>
+        <p>@INPROCEEDINGS{Shah20OS, author={Shah, Muhammad A. and Olivier, Raphael and Raj, Bhiksha}, booktitle={25th International Conference on Pattern Recognition (ICPR)}, title={Optimal Strategies For Comparing Covariates To Solve Matching Problems}, year={2021}, volume={}, number={}, pages={10622-10628}, doi={10.1109/ICPR48806.2021.9412932}}</p>
+      </details>
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      
+      <div class="font-bold text-xl"><a href="https://link.springer.com/chapter/10.1007/978-3-030-44584-3_10">Transfer Learning by Learning Projections from Target to Source</a></div>
+      
+      <div class="font-semibold">
+        <span>Antoine Cornuejols, Pierre-Alexandre Murena, Raphael Olivier</span><br>
+      </div>
+      <div>
+        <span><i>Advances in Intelligent Data Analysis XVIII (IDA)</i>, Konstanz, April 2020 </span>
+      </div>
+    </div>
+    <div>
+      <details>
+        <summary>Abstract</summary>
+        <p>Using transfer learning to help in solving a new classification task where labeled data is scarce is becoming popular. Numerous experiments with deep neural networks, where the representation learned on a source task is transferred to learn a target neural network, have shown the benefits of the approach. This paper, similarly, deals with hypothesis transfer learning. However, it presents a new approach where, instead of transferring a representation, the source hypothesis is kept and this is a translation from the target domain to the source domain that is learned. In a way, a change of representation is learned. We show how this method performs very well on a classification of time series task where the space of time series is changed between source and target.</p>
+      </details>
+    </div>
+    <div>
+      <details>
+        <summary>Bibtex</summary>
+        <p>@InProceedings{Cornuejols20TL, author=&ldquo;Cornu{'e}jols, Antoine and Murena, Pierre-Alexandre and Olivier, Rapha{&quot;e}l&rdquo;, editor=&ldquo;Berthold, Michael R. and Feelders, Ad and Krempl, Georg&rdquo;, title=&ldquo;Transfer Learning by Learning Projections from Target to Source&rdquo;, booktitle=&ldquo;Advances in Intelligent Data Analysis XVIII&rdquo;, year=&ldquo;2020&rdquo;, publisher=&ldquo;Springer International Publishing&rdquo;, address=&ldquo;Cham&rdquo;, pages=&ldquo;119&ndash;131&rdquo;, isbn=&ldquo;978-3-030-44584-3&rdquo;}</p>
+      </details>
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      
+      <div class="font-bold text-xl"><a href="https://arxiv.org/abs/2005.14070">Retrieval-Based Neural Code Generation</a></div>
+      
+      <div class="font-semibold">
+        <span>Shirley Anugrah Hayati*, Raphael Olivier*, Pravalika Avvaru*, Pengcheng Yin, Anthony Tomasic, Graham Neubig</span><br>
+      </div>
+      <div>
+        <span><i>Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)</i>, Brussels, October 2018 </span>
+      </div>
+    </div>
+    <div>
+      <details>
+        <summary>Abstract</summary>
+        <p>Deploying deep learning models, comprising of non-linear combination of millions, even billions, of parameters is challenging given the memory, power and compute constraints of the real world. This situation has led to research into model compression techniques most of which rely on suboptimal heuristics and do not consider the parameter redundancies due to linear dependence between neuron activations in overparametrized networks. In this paper, we propose a novel model compression approach based on exploitation of linear dependence, that compresses networks by elimination of entire neurons and redistribution of their activations over other neurons in a manner that is provably lossless while training. We combine this approach with an annealing algorithm that may be applied during training, or even on a trained model, and demonstrate, using popular datasets, that our method results in a reduction of up to 99% in overall network size with small loss in performance. Furthermore, we provide theoretical results showing that in overparametrized, locally linear (ReLU) neural networks where redundant features exist, and with correct hyperparameter selection, our method is indeed able to capture and suppress those dependencies.</p>
+      </details>
+    </div>
+    <div>
+      <details>
+        <summary>Bibtex</summary>
+        <p>@inproceedings{Hayati18RB, title = &ldquo;Retrieval-Based Neural Code Generation&rdquo;, author = &ldquo;Hayati, Shirley Anugrah  and Olivier, Raphael  and Avvaru, Pravalika  and Yin, Pengcheng  and Tomasic, Anthony  and Neubig, Graham&rdquo;, booktitle = &ldquo;Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing&rdquo;, month = oct, year = &ldquo;2018&rdquo;, address = &ldquo;Brussels, Belgium&rdquo;, publisher = &ldquo;Association for Computational Linguistics&rdquo;, url = &ldquo;<a href="https://aclanthology.org/D18-1111%22">https://aclanthology.org/D18-1111&quot;</a>, doi = &ldquo;10.18653/v1/D18-1111&rdquo;, pages = &ldquo;925&ndash;930&rdquo;}</p>
+      </details>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+  
+
+      </div>
+    </div>
+  </div>
+
+    
+
+  
+  
+    
+      
+  
+
+  
+
+  
+  
+  
+
+  
+    
+    
+    
+    
+      
+      
+    
+  
+
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+
+    
+    
+    
+    
+    
+  
+
+  <div class="pl-scrollbar bg-primary-bg" 
+    >
+    <div class="max-w-screen-xl mx-auto">
+      <div id="education" class="lg:w-4/5 mx-auto px-6 md:px-8 xl:px-12 py-12">
+        
+  
+
+  
+
+    
+    
+    
+    
+    
+      
+    
+    <div class="flex flex-col lg:flex-row">
+      <div class="flex-none lg:w-1/4 lg:mr-4">
+        <h2 class="font-bold text-3xl my-4">Education</h2>
+      </div>
+      <div class="flex-grow lg:ml-4">
+        
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      <div class="font-bold text-xl">PhD in Language Technologies</div>
+      <div class="flex flex-col md:flex-row md:justify-between">
+        <div>
+          
+          <a href="https://www.lti.cs.cmu.edu/">Carnegie Mellon University</a>
+          
+
+          
+          <span class="ml-2 mr-2">·</span>
+          
+
+          <span>Pittsburgh, PA, USA </span>
+        </div>
+        <div class="flex-shrink-0"> 2019 - Present</div>
+      </div>
+    </div>
+
+    <div class="content">
+      My advisor is Prof. Bhiksha Raj.
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      <div class="font-bold text-xl">Master&#39;s in Language Technologies</div>
+      <div class="flex flex-col md:flex-row md:justify-between">
+        <div>
+          
+          <a href="https://www.lti.cs.cmu.edu/">Carnegie Mellon University</a>
+          
+
+          
+          <span class="ml-2 mr-2">·</span>
+          
+
+          <span>Pittsburgh, PA, USA </span>
+        </div>
+        <div class="flex-shrink-0"> 2017 - 2019</div>
+      </div>
+    </div>
+
+    <div class="content">
+      Courses : Machine Learning, Deep Learning, NLP, Machine Translation, Reinforcement Learning, Multimodal
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      <div class="font-bold text-xl">Engineering degree</div>
+      <div class="flex flex-col md:flex-row md:justify-between">
+        <div>
+          
+          <a href="https://www.polytechnique.edu/">École polytechnique</a>
+          
+
+          
+          <span class="ml-2 mr-2">·</span>
+          
+
+          <span>Paris, France </span>
+        </div>
+        <div class="flex-shrink-0"> 2014 - 2017</div>
+      </div>
+    </div>
+
+    <div class="content">
+      École polytechnique is the top French &ldquo;Grande École&rdquo;. My program&rsquo;s admission is based on a national, math-heavy competitive entrance exam. I majored in Math and Computer Science.
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      <div class="font-bold text-xl">Classes préparatoires</div>
+      <div class="flex flex-col md:flex-row md:justify-between">
+        <div>
+          
+          <span>Lycée Pasteur</span>
+          
+
+          
+          <span class="ml-2 mr-2">·</span>
+          
+
+          <span>Paris, France </span>
+        </div>
+        <div class="flex-shrink-0"> 2012 - 2014</div>
+      </div>
+    </div>
+
+    <div class="content">
+      2 year intense preparation in math, physics and computer science for the upcoming &ldquo;Grande École&rdquo; entrance exams.
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+  
+
+      </div>
+    </div>
+  </div>
+
+    
+
+  
+  
+    
+      
+  
+
+  
+
+  
+  
+  
+
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+  
+
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+
+    
+    
+    
+    
+    
+  
+
+  <div class="pl-scrollbar bg-secondary-bg" 
+    >
+    <div class="max-w-screen-xl mx-auto">
+      <div id="work" class="lg:w-4/5 mx-auto px-6 md:px-8 xl:px-12 py-12">
+        
+  
+
+  
+
+    
+    
+    
+    
+    
+      
+    
+    <div class="flex flex-col lg:flex-row">
+      <div class="flex-none lg:w-1/4 lg:mr-4">
+        <h2 class="font-bold text-3xl my-4">Work Experience</h2>
+      </div>
+      <div class="flex-grow lg:ml-4">
+        
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      <div class="font-bold text-xl">Applied Scientist Intern</div>
+      <div class="flex flex-col md:flex-row md:justify-between">
+        <div>
+          
+          <span>Amazon Alexa</span>
+          
+
+          
+          <span class="ml-2 mr-2">·</span>
+          
+
+          <span>Pittsburgh, PA, USA </span>
+        </div>
+        <div class="flex-shrink-0"> June 2021 - August 2021</div>
+      </div>
+    </div>
+
+    <div class="content">
+      I worked on evaluating the threat of backdoor poisoning for Speech Recognition models.
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      <div class="font-bold text-xl">Applied Scientist Intern</div>
+      <div class="flex flex-col md:flex-row md:justify-between">
+        <div>
+          
+          <span>Amazon Alexa</span>
+          
+
+          
+          <span class="ml-2 mr-2">·</span>
+          
+
+          <span>Pittsburgh, PA, USA </span>
+        </div>
+        <div class="flex-shrink-0"> June 2020 - August 2020</div>
+      </div>
+    </div>
+
+    <div class="content">
+      I worked on data privacy and membership inference attacks in the context of Speech Recognition, and their relationship to adversarial attacks.
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      <div class="font-bold text-xl">Research intern</div>
+      <div class="flex flex-col md:flex-row md:justify-between">
+        <div>
+          
+          <a href="http://www2.agroparistech.fr/Welcome-to-AgroParisTech.html">AgroParisTech</a>
+          
+
+          
+          <span class="ml-2 mr-2">·</span>
+          
+
+          <span>Paris, France </span>
+        </div>
+        <div class="flex-shrink-0"> April 2017 - August 2017</div>
+      </div>
+    </div>
+
+    <div class="content">
+      During this research internship in the Learning and Information Knowledge laboratory of AgroParistech, I worked on transfer learning for time series using Boosting of weak projectors, mentored by prof. Antoine Cornuejols.
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      <div class="font-bold text-xl">Intern</div>
+      <div class="flex flex-col md:flex-row md:justify-between">
+        <div>
+          
+          <a href="https://datascientest.com/en/home-page">DataScienTest</a>
+          
+
+          
+          <span class="ml-2 mr-2">·</span>
+          
+
+          <span>Paris, France and Tel-Aviv, Israel </span>
+        </div>
+        <div class="flex-shrink-0"> June 2016 - August 2016</div>
+      </div>
+    </div>
+
+    <div class="content">
+      DataScienTest is a startup that offers online data science training. I joined it at its very beginnings and contributed with content creation (Machine Learning exercises, solutions, and correction algorithms) and backend development.
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+  
+
+      </div>
+    </div>
+  </div>
+
+    
+
+  
+  
+    
+      
+  
+
+  
+
+  
+  
+  
+
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+  
+
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+
+    
+    
+    
+    
+    
+  
+
+  <div class="pl-scrollbar bg-secondary-bg" 
+    >
+    <div class="max-w-screen-xl mx-auto">
+      <div id="teaching" class="lg:w-4/5 mx-auto px-6 md:px-8 xl:px-12 py-12">
+        
+  
+
+  
+
+    
+    
+    
+    
+    
+      
+    
+    <div class="flex flex-col lg:flex-row">
+      <div class="flex-none lg:w-1/4 lg:mr-4">
+        <h2 class="font-bold text-3xl my-4">Teaching and talks</h2>
+      </div>
+      <div class="flex-grow lg:ml-4">
+        
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      <div class="font-bold text-xl">Guest Lecturer</div>
+      <div class="flex flex-col md:flex-row md:justify-between">
+        <div>
+          
+          <a href="deeplearning.cs.cmu.edu/">Introduction to Deep Learning</a>
+          
+
+          
+          <span class="ml-2 mr-2">·</span>
+          
+
+          <span>Pittsburgh, PA, USA </span>
+        </div>
+        <div class="flex-shrink-0"> March 2022</div>
+      </div>
+    </div>
+
+    <div class="content">
+      I gave the lecture on Transformers and Graph Neural Networks during this edition of the course. Here is the <a href="https://www.youtube.com/watch?v=thwZ-G8Gk6I&amp;list=PLp-0K3kfddPyJGESfW6iJ5cC8YVOtZMKH&amp;index=20">video</a>.
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      <div class="font-bold text-xl">Teaching Assistant</div>
+      <div class="flex flex-col md:flex-row md:justify-between">
+        <div>
+          
+          <a href="deeplearning.cs.cmu.edu/">Introduction to Deep Learning</a>
+          
+
+          
+          <span class="ml-2 mr-2">·</span>
+          
+
+          <span>Pittsburgh, PA, USA </span>
+        </div>
+        <div class="flex-shrink-0"> September 2018 - May 2019</div>
+      </div>
+    </div>
+
+    <div class="content">
+      This was the primary deep Learning course offered by Carnegie Mellon University and gathered over 250 students. I was a Teaching Assistant for 2 semesters.  My responsibilities involved office hours, homework creation and grading, student project mentorship, recitation teaching, and surrogate lecture teaching. Here are <a href="https://www.youtube.com/watch?v=wqSZ5Z-Blpg&amp;list=PLp-0K3kfddPzNdZPX4p0lVi6AcDXBofuf&amp;index=1">some</a> <a href="https://www.youtube.com/watch?v=Mr5dHOcgD5Q&amp;list=PLp-0K3kfddPyH44FP0dl0CbYprvTcfgOI&amp;index=20">videos</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+  
+
+      </div>
+    </div>
+  </div>
+
+    
+
+  
+  
+  </main>
+  <footer class="pl-scrollbar">
+    <div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">
+    <p class="text-sm text-tertiary-text">&copy; 2021 <a href="https://www.wangchucheng.com/">C. Wang</a> and <a href="https://www.ruiqima.com/">R. Ma</a>
+ &middot;  Powered by the <a href="https://github.com/wangchucheng/hugo-eureka" class="hover:text-eureka">Eureka</a> theme for <a href="https://gohugo.io" class="hover:text-eureka">Hugo</a></p>
+</div></div>
+  </footer>
+</body>
+
+</html>
