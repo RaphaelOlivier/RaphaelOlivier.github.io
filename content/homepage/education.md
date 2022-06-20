@@ -34,7 +34,7 @@ experiences:
     writeup: >
       2 year intense preparation in math, physics and computer science for the upcoming "Grande École" entrance exams.
 
-weight: 3
+weight: 4
 widget:
   handler: experiences
 
@@ -49,7 +49,7 @@ widget:
   
   background:
     # Options: primary, secondary, tertiary or any valid color value. Default is primary.
-    color: secondary
+    color:
     image:
     # Options: auto, cover and contain. Default is auto.
     size:

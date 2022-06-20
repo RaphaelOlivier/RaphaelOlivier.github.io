@@ -14,6 +14,6 @@ main:
   - name: Work experience
     url: '#work'
     weight: 5
-  - name: Teaching
+  - name: Talks
     url: '#teaching'
     weight: 6

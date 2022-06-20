@@ -14,7 +14,7 @@ publications:
     bibtex: >
       @inproceedings{Olivier22RI, title = "Recent improvements of ASR models in the face of adversarial attacks", author = "Olivier Raphael  and Raj, Bhiksha", booktitle = "InterSpeech 2022", month = sep, year = "2022", address = "Incheon, South Korea", publisher = "ISCA"}
 
-- title: Sequential Randomized Smoothing for Adversarially Robust Speech Recognition
+  - title: Sequential Randomized Smoothing for Adversarially Robust Speech Recognition
     authors: Raphael Olivier, Bhiksha Raj
     url: https://aclanthology.org/2021.emnlp-main.514/
     booktitle: Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)
@@ -91,7 +91,7 @@ publications:
     bibtex: >
       @inproceedings{Hayati18RB, title = "Retrieval-Based Neural Code Generation", author = "Hayati, Shirley Anugrah  and Olivier, Raphael  and Avvaru, Pravalika  and Yin, Pengcheng  and Tomasic, Anthony  and Neubig, Graham", booktitle = "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing", month = oct, year = "2018", address = "Brussels, Belgium", publisher = "Association for Computational Linguistics", url = "https://aclanthology.org/D18-1111", doi = "10.18653/v1/D18-1111", pages = "925--930"}
 
-weight: 2
+weight: 3
 widget:
   handler: publications
 
@@ -106,7 +106,7 @@ widget:
   
   background:
     # Options: primary, secondary, tertiary or any valid color value. Default is primary.
-    color:
+    color: secondary
     image:
     # Options: auto, cover and contain. Default is auto.
     size:

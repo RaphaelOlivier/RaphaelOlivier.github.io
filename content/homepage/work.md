@@ -36,7 +36,7 @@ experiences:
     writeup: >
       DataScienTest is a startup that offers online data science training. I joined it at its very beginnings and contributed with content creation (Machine Learning exercises, solutions, and correction algorithms) and backend development.
 
-weight: 4
+weight: 5
 widget:
   handler: experiences
 
@@ -51,7 +51,7 @@ widget:
   
   background:
     # Options: primary, secondary, tertiary or any valid color value. Default is primary.
-    color:
+    color: secondary
     image:
     # Options: auto, cover and contain. Default is auto.
     size:
