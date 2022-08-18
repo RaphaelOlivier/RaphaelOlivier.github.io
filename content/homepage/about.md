@@ -59,7 +59,7 @@ widget:
     attachment: 
 ---
 
-I am on the job market next year (Spring 2022)! Reach out at either of the addresses above.
+I am on the job market next year (Spring 2023)! Reach out at either of the addresses above.
 ## About
 I am a third year Ph.D student in the Language Technologies Institute at Carnegie Mellon University, Pittsburgh PA. I am working under the supervision of Prof. Bhiksha Raj.
 
