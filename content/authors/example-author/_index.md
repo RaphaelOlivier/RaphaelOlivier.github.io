@@ -1,6 +1,6 @@
 ---
 title: Raphael Olivier
-role: PhD student
+role: PhD candidate
 avatar: images/icon.png
 bio: Aenean vel bibendum quam. Aliquam at mollis quam. Proin efficitur.
 organization:

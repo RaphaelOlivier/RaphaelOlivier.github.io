@@ -1,10 +1,10 @@
 ---
 title: Raphael Olivier
 draft: false
-role: PhD student
+role: PhD candidate
 avatar: headshot_face.jpg
 bio: >
-  3rd year PhD student working on adversarial robustness and speech. 
+  PhD candidate working on adversarial robustness for speech recognition. 
   Email : <a href="mailto:raphael.franck.olivier@gmail.com">raphael.franck.olivier@gmail.com</a> or <a href="mailto:rolivier@cs.cmu.edu">rolivier@cs.cmu.edu</a>
 organization:
   name: LTI, Carnegie Mellon University
@@ -59,7 +59,7 @@ widget:
     attachment: 
 ---
 
-I am on the job market next year (Spring 2023)! Reach out at either of the addresses above.
+I am on the job market next year (Spring/Summer 2023)! Reach out at either of the addresses above.
 ## About
 I am a third year Ph.D student in the Language Technologies Institute at Carnegie Mellon University, Pittsburgh PA. I am working under the supervision of Prof. Bhiksha Raj.
 
