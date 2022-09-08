@@ -61,7 +61,7 @@ widget:
 
 I am on the job market next year (Spring/Summer 2023)! Reach out at either of the addresses above.
 ## About
-I am a third year Ph.D student in the Language Technologies Institute at Carnegie Mellon University, Pittsburgh PA. I am working under the supervision of Prof. Bhiksha Raj.
+I am a PhD candidate in the Language Technologies Institute at Carnegie Mellon University, Pittsburgh PA. I have been working under the supervision of Prof. Bhiksha Raj since 2019.
 
 I was a graduate of École Polytechnique in Paris, where I double majored in math and CS. I joined the Master in Language Technologies at CMU in 2017.
 
