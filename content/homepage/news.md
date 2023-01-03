@@ -27,6 +27,7 @@ widget:
     attachment: 
 ---
 
+* **[November 2022]**: I gave an invited talk at Technion University's Machine Learning seminar
 * **[August 2022]**: I gave a talk at the Security and Privacy for Speech Communications ([SPSC](https://www.spsc-sig.org)) webinar
 * **[June 2022]**: **[Our paper](https://arxiv.org/abs/2203.16536)** was accepted at Interspeech 2022
 * **[June 2022]**: We released robust speech version 0.2.0

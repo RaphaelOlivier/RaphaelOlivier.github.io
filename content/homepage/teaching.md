@@ -3,6 +3,22 @@ title: Teaching and talks
 draft: false
 experiences:
 
+  - title: Invited Speaker
+    organization:
+      name: Technion Machine Learning Seminar
+      url: https://www.technion.ac.il/en/home-2/
+    dates: 'November 2022'
+    location: Haifa, Israel
+    writeup: >
+      I gave a research talk on two of our recent papers
+  - title: Invited Speaker
+    organization:
+      name: Securaty and Privacy for Speech Communications
+      url: https://www.spsc-sig.org/webinar/
+    dates: 'August 2022'
+    location: Online
+    writeup: >
+      I gave a research talk on [our recent paper](https://arxiv.org/abs/2209.13523)
   - title: Guest Lecturer
     organization:
       name: Introduction to Deep Learning

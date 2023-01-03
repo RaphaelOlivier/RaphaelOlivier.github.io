@@ -2,6 +2,24 @@
 title: Publications
 draft: false
 publications:
+  
+  - title: There is more than one kind of robustness - Fooling Whisper with adversarial examples
+    authors: Raphael Olivier, Bhiksha Raj
+    url: https://arxiv.org/abs/2210.17316
+    booktitle: ArXiv preprint
+    abstract: >
+      Whisper is a recent Automatic Speech Recognition (ASR) model displaying impressive robustness to both out-of-distribution inputs and random noise. In this work, we show that this robustness does not carry over to adversarial noise. We generate very small input perturbations with Signal Noise Ratio of up to 45dB, with which we can degrade Whisper performance dramatically, or even transcribe a target sentence of our choice. We also show that by fooling the Whisper language detector we can very easily degrade the performance of multilingual models. These vulnerabilities of a widely popular open-source model have practical security implications, and emphasize the need for adversarially robust ASR. 
+    bibtex: >
+      @misc{Olivier22WW, title = "There is more than one kind of robustness: Fooling Whisper with adversarial examples", author = "Olivier Raphael and Raj, Bhiksha", publisher = {arXiv}, year = {2022}, copyright = {arXiv.org perpetual, non-exclusive license}}
+
+  - title: Watch What You Prerain For - Targeted, Transferable Adversarial Examples on Self-Supervised Speech Recognition models
+    authors: Raphael Olivier, Hadi Abdullah, Bhiksha Raj
+    url: https://arxiv.org/abs/2209.13523
+    booktitle: ArXiv preprint
+    abstract: >
+      A targeted adversarial attack produces audio samples that can force an Automatic Speech Recognition (ASR) system to output attacker-chosen text. To exploit ASR models in real-world, black-box settings, an adversary can leverage the transferability property, i.e. that an adversarial sample produced for a proxy ASR can also fool a different remote ASR. However recent work has shown that transferability against large ASR models is very difficult. In this work, we show that modern ASR architectures, specifically ones based on Self-Supervised Learning, are in fact vulnerable to transferability. We successfully demonstrate this phenomenon by evaluating state-of-the-art self-supervised ASR models like Wav2Vec2, HuBERT, Data2Vec and WavLM. We show that with low-level additive noise achieving a 30dB Signal-Noise Ratio, we can achieve target transferability with up to 80% accuracy. Next, we 1) use an ablation study to show that Self-Supervised learning is the main cause of that phenomenon, and 2) we provide an explanation for this phenomenon. Through this we show that modern ASR architectures are uniquely vulnerable to adversarial security threats. 
+    bibtex: >
+      @misc{Olivier22WW, title = "Watch What You Prerain For: Targeted, Transferable Adversarial Examples on Self-Supervised Speech Recognition models", author = "Olivier Raphael and Abdullah, Hadi and Raj, Bhiksha", publisher = {arXiv}, year = {2022}, copyright = {arXiv.org perpetual, non-exclusive license}}
 
   - title: How many perturbations break this model? Evaluating robustness beyond adversarial accuracy
     authors: Raphael Olivier, Bhiksha Raj

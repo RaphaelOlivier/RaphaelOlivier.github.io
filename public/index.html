@@ -319,9 +319,9 @@
 <div class="content">
   <p>I am on the job market next year (Spring/Summer 2023)! Reach out at either of the addresses above.</p>
 <h2 id="about">About</h2>
-<p>I am a PhD candidate in the Language Technologies Institute at Carnegie Mellon University, Pittsburgh PA. I have been working under the supervision of Prof. Bhiksha Raj since 2019.</p>
+<p>I am a third year Ph.D student in the Language Technologies Institute at Carnegie Mellon University, Pittsburgh PA. I am working under the supervision of Prof. Bhiksha Raj. My research interests include Automatic Speech Recognition, Self-supervised learning, Adversarial robustness, Secure and Trustworthy AI</p>
 <p>I was a graduate of École Polytechnique in Paris, where I double majored in math and CS. I joined the Master in Language Technologies at CMU in 2017.</p>
-<h2 id="research-interests">Research interests</h2>
+<h2 id="detailed-research-interests">Detailed Research interests</h2>
 <h3 id="ai-security">AI security</h3>
 <p>The Deep Learning models that have revolutionized the fields of Computer Vision, Speech and Language Processing, can behave strangely out of their training domain. Agents with malicious intents can actively create these contexts in order to exploit deployed Artificial Intelligence (AI) systems : force self-driving cars to confuse signs and crash, military drones to mistake hospitals for military bases, personal assistants or smartphones to reveal private user information, etc.</p>
 <p>In my thesis I work on formalizing, evaluating and mitigating these threats, such as adversarial perturbations, data poisoning, privacy attacks, etc. My long-term research goal is to contribute to the safe development of Artificial Intelligence, so that society can benefit and not suffer from it.</p>
@@ -407,6 +407,7 @@
       </div>
       <div class="flex-grow lg:ml-4">
         <ul>
+<li><strong>[November 2022]</strong>: I gave an invited talk at Technion University&rsquo;s Machine Learning seminar</li>
 <li><strong>[August 2022]</strong>: I gave a talk at the Security and Privacy for Speech Communications (<a href="https://www.spsc-sig.org">SPSC</a>) webinar</li>
 <li><strong>[June 2022]</strong>: <strong><a href="https://arxiv.org/abs/2203.16536">Our paper</a></strong> was accepted at Interspeech 2022</li>
 <li><strong>[June 2022]</strong>: We released robust speech version 0.2.0</li>
@@ -494,6 +495,62 @@
       </div>
       <div class="flex-grow lg:ml-4">
         
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      
+      <div class="font-bold text-xl"><a href="https://arxiv.org/abs/2210.17316">There is more than one kind of robustness - Fooling Whisper with adversarial examples</a></div>
+      
+      <div class="font-semibold">
+        <span>Raphael Olivier, Bhiksha Raj</span><br>
+      </div>
+      <div>
+        <span><i>ArXiv preprint</i>, ,  </span>
+      </div>
+    </div>
+    <div>
+      <details>
+        <summary>Abstract</summary>
+        <p>Whisper is a recent Automatic Speech Recognition (ASR) model displaying impressive robustness to both out-of-distribution inputs and random noise. In this work, we show that this robustness does not carry over to adversarial noise. We generate very small input perturbations with Signal Noise Ratio of up to 45dB, with which we can degrade Whisper performance dramatically, or even transcribe a target sentence of our choice. We also show that by fooling the Whisper language detector we can very easily degrade the performance of multilingual models. These vulnerabilities of a widely popular open-source model have practical security implications, and emphasize the need for adversarially robust ASR.</p>
+      </details>
+    </div>
+    <div>
+      <details>
+        <summary>Bibtex</summary>
+        <p>@misc{Olivier22WW, title = &ldquo;There is more than one kind of robustness: Fooling Whisper with adversarial examples&rdquo;, author = &ldquo;Olivier Raphael and Raj, Bhiksha&rdquo;, publisher = {arXiv}, year = {2022}, copyright = {arXiv.org perpetual, non-exclusive license}}</p>
+      </details>
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      
+      <div class="font-bold text-xl"><a href="https://arxiv.org/abs/2209.13523">Watch What You Prerain For - Targeted, Transferable Adversarial Examples on Self-Supervised Speech Recognition models</a></div>
+      
+      <div class="font-semibold">
+        <span>Raphael Olivier, Hadi Abdullah, Bhiksha Raj</span><br>
+      </div>
+      <div>
+        <span><i>ArXiv preprint</i>, ,  </span>
+      </div>
+    </div>
+    <div>
+      <details>
+        <summary>Abstract</summary>
+        <p>A targeted adversarial attack produces audio samples that can force an Automatic Speech Recognition (ASR) system to output attacker-chosen text. To exploit ASR models in real-world, black-box settings, an adversary can leverage the transferability property, i.e. that an adversarial sample produced for a proxy ASR can also fool a different remote ASR. However recent work has shown that transferability against large ASR models is very difficult. In this work, we show that modern ASR architectures, specifically ones based on Self-Supervised Learning, are in fact vulnerable to transferability. We successfully demonstrate this phenomenon by evaluating state-of-the-art self-supervised ASR models like Wav2Vec2, HuBERT, Data2Vec and WavLM. We show that with low-level additive noise achieving a 30dB Signal-Noise Ratio, we can achieve target transferability with up to 80% accuracy. Next, we 1) use an ablation study to show that Self-Supervised learning is the main cause of that phenomenon, and 2) we provide an explanation for this phenomenon. Through this we show that modern ASR architectures are uniquely vulnerable to adversarial security threats.</p>
+      </details>
+    </div>
+    <div>
+      <details>
+        <summary>Bibtex</summary>
+        <p>@misc{Olivier22WW, title = &ldquo;Watch What You Prerain For: Targeted, Transferable Adversarial Examples on Self-Supervised Speech Recognition models&rdquo;, author = &ldquo;Olivier Raphael and Abdullah, Hadi and Raj, Bhiksha&rdquo;, publisher = {arXiv}, year = {2022}, copyright = {arXiv.org perpetual, non-exclusive license}}</p>
+      </details>
+    </div>
+  </div>
+</div>
+
 <div class="mb-6">
   <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
     <div class="mb-4">
@@ -1183,6 +1240,58 @@
       </div>
       <div class="flex-grow lg:ml-4">
         
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      <div class="font-bold text-xl">Invited Speaker</div>
+      <div class="flex flex-col md:flex-row md:justify-between">
+        <div>
+          
+          <a href="https://www.technion.ac.il/en/home-2/">Technion Machine Learning Seminar</a>
+          
+
+          
+          <span class="ml-2 mr-2">·</span>
+          
+
+          <span>Haifa, Israel </span>
+        </div>
+        <div class="flex-shrink-0"> November 2022</div>
+      </div>
+    </div>
+
+    <div class="content">
+      I gave a research talk on two of our recent papers
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      <div class="font-bold text-xl">Invited Speaker</div>
+      <div class="flex flex-col md:flex-row md:justify-between">
+        <div>
+          
+          <a href="https://www.spsc-sig.org/webinar/">Securaty and Privacy for Speech Communications</a>
+          
+
+          
+          <span class="ml-2 mr-2">·</span>
+          
+
+          <span>Online </span>
+        </div>
+        <div class="flex-shrink-0"> August 2022</div>
+      </div>
+    </div>
+
+    <div class="content">
+      I gave a research talk on <a href="https://arxiv.org/abs/2209.13523">our recent paper</a>
+    </div>
+  </div>
+</div>
+
 <div class="mb-6">
   <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
     <div class="mb-4">
