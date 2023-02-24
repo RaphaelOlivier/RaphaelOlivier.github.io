@@ -4,7 +4,7 @@ draft: false
 role: PhD candidate
 avatar: headshot_face.jpg
 bio: >
-  PhD candidate working on adversarial robustness for speech recognition. 
+  PhD candidate working on robust speech representations and trustworthy speech processing. 
   Email : <a href="mailto:raphael.franck.olivier@gmail.com">raphael.franck.olivier@gmail.com</a> or <a href="mailto:rolivier@cs.cmu.edu">rolivier@cs.cmu.edu</a>
 organization:
   name: LTI, Carnegie Mellon University
@@ -59,7 +59,7 @@ widget:
     attachment: 
 ---
 
-I am on the job market next year (Spring/Summer 2023)! Reach out at either of the addresses above.
+I am on the job market this year (Summer 2023)! Reach out at either of the addresses above.
 ## About
 I am a third year Ph.D student in the Language Technologies Institute at Carnegie Mellon University, Pittsburgh PA. I am working under the supervision of Prof. Bhiksha Raj. My research interests include Automatic Speech Recognition, Self-supervised learning, Adversarial robustness, Secure and Trustworthy AI
 
