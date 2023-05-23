@@ -6,7 +6,9 @@ publications:
   - title: There is more than one kind of robustness - Fooling Whisper with adversarial examples
     authors: Raphael Olivier, Bhiksha Raj
     url: https://arxiv.org/abs/2210.17316
-    booktitle: ArXiv preprint
+    booktitle: InterSpeech
+    location: Dublin
+    date: August 2023
     abstract: >
       Whisper is a recent Automatic Speech Recognition (ASR) model displaying impressive robustness to both out-of-distribution inputs and random noise. In this work, we show that this robustness does not carry over to adversarial noise. We generate very small input perturbations with Signal Noise Ratio of up to 45dB, with which we can degrade Whisper performance dramatically, or even transcribe a target sentence of our choice. We also show that by fooling the Whisper language detector we can very easily degrade the performance of multilingual models. These vulnerabilities of a widely popular open-source model have practical security implications, and emphasize the need for adversarially robust ASR. 
     bibtex: >
@@ -24,7 +26,9 @@ publications:
   - title: How many perturbations break this model? Evaluating robustness beyond adversarial accuracy
     authors: Raphael Olivier, Bhiksha Raj
     url: https://arxiv.org/abs/2207.04129
-    booktitle: ArXiv preprint
+    booktitle: ICML
+    location: Honolulu
+    date: July 2023
     abstract: >
       Robustness to adversarial attack is typically evaluated with adversarial accuracy. This metric quantifies the number of points for which, given a threat model, successful adversarial perturbations cannot be found. While essential, this metric does not capture all aspects of robustness and in particular leaves out the question of how many perturbations can be found for each point. In this work we introduce an alternative approach, adversarial sparsity, which quantifies how difficult it is to find a successful perturbation given both an input point and a constraint on the direction of the perturbation. This constraint may be angular (L2 perturbations), or based on the number of pixels (Linf perturbations).
       We show that sparsity provides valuable insight on neural networks in multiple ways. analyzing the sparsity of existing robust models illustrates important differences between them that accuracy analysis does not, and suggests approaches for improving their robustness. When applying broken defenses effective against weak attacks but not strong ones, sparsity can discriminate between the totally ineffective and the partially effective defenses. Finally, with sparsity we can measure increases in robustness that do not affect accuracy: we show for example that data augmentation can by itself increase adversarial robustness, without using adversarial training.
@@ -34,7 +38,7 @@ publications:
   - title: Recent improvements of ASR models in the face of adversarial attacks
     authors: Raphael Olivier, Bhiksha Raj
     url: https://arxiv.org/abs/2203.16536
-    booktitle: InterSpeech 2022
+    booktitle: InterSpeech
     location: Incheon
     date: September 2022
     abstract: >
