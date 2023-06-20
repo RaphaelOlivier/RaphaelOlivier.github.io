@@ -27,6 +27,9 @@ widget:
     attachment: 
 ---
 
+* **[June 2023]**: **I successfully defended my thesis** in front of profs. **[Nicolas Papernot](https://www.papernot.fr/)**, **[Lujo Bauer](https://users.ece.cmu.edu/~lbauer/)**, Rita Singh and Bhiksha Raj
+* **[June 2023]**: I received an Outstanding Reviewer award at ICASSP 2023
+* **[June 2023]**: **[Our paper on transferable attacks against SSL speech models](https://arxiv.org/abs/2209.13523)** was accepted at the AdvML workshop at ICML 2023
 * **[May 2023]**: **[Our paper on attacking Whisper](https://arxiv.org/abs/2210.17316)** was accepted at Interspeech 2023
 * **[April 2023]**: **[Our robustness metric Adversarial Sparsity](https://arxiv.org/abs/2207.04129)** was accepted at ICML 2023
 * **[March 2023]**: I gave an invited talk at the CMU Sphinx seminar
